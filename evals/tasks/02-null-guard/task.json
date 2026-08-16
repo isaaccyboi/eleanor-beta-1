@@ -1,0 +1,10 @@
+{
+  "id": "02-null-guard",
+  "title": "Guard against a missing argument",
+  "difficulty": "easy",
+  "skills": ["defensive-fix"],
+  "prompt": "formatName() in src/format.js throws when it is given null or undefined. It should return an empty string in that case instead of crashing.",
+  "grade": "npm test --silent",
+  "protected": ["test/**", "package.json"],
+  "timeoutMs": 600000
+}

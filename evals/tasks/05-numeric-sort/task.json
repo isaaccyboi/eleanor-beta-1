@@ -1,0 +1,10 @@
+{
+  "id": "05-numeric-sort",
+  "title": "Default sort is lexicographic",
+  "difficulty": "medium",
+  "skills": ["subtle-bug", "language-semantics"],
+  "prompt": "sortScores() in src/rank.js puts scores in the wrong order for some inputs. Work out why and fix it.",
+  "grade": "npm test --silent",
+  "protected": ["test/**", "package.json"],
+  "timeoutMs": 600000
+}

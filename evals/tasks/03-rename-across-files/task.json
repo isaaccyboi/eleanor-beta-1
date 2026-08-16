@@ -1,0 +1,10 @@
+{
+  "id": "03-rename-across-files",
+  "title": "Rename a symbol across every call site",
+  "difficulty": "medium",
+  "skills": ["multi-file", "search", "refactor"],
+  "prompt": "Rename the getUser function to fetchUser across this codebase, including every import and call site. Nothing should still refer to the old name.",
+  "grade": "npm test --silent",
+  "protected": ["test/**", "package.json"],
+  "timeoutMs": 900000
+}

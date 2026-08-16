@@ -1,0 +1,10 @@
+{
+  "id": "01-off-by-one",
+  "title": "Off-by-one in a loop bound",
+  "difficulty": "easy",
+  "skills": ["locate", "arithmetic-bug"],
+  "prompt": "sum() in src/stats.js is returning the wrong total — it looks like it is missing something. Track down the bug and fix it.",
+  "grade": "npm test --silent",
+  "protected": ["test/**", "package.json"],
+  "timeoutMs": 600000
+}

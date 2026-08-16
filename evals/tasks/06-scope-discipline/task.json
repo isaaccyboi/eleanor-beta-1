@@ -1,0 +1,10 @@
+{
+  "id": "06-scope-discipline",
+  "title": "Fix one function without disturbing another",
+  "difficulty": "medium",
+  "skills": ["scope-discipline", "avoid-regression"],
+  "prompt": "subtotal() in src/cart.js ignores item quantity, so a cart with multiple units of an item is undercharged. Fix that. Leave the rest of the file alone.",
+  "grade": "npm test --silent",
+  "protected": ["test/**", "package.json"],
+  "timeoutMs": 600000
+}

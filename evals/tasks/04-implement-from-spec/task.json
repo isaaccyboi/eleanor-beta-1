@@ -1,0 +1,10 @@
+{
+  "id": "04-implement-from-spec",
+  "title": "Implement a function from its test suite",
+  "difficulty": "medium",
+  "skills": ["read-spec", "string-handling", "edge-cases"],
+  "prompt": "src/slugify.js is unimplemented. Implement slugify() so that it satisfies the behaviour described by the existing test suite.",
+  "grade": "npm test --silent",
+  "protected": ["test/**", "package.json"],
+  "timeoutMs": 900000
+}
